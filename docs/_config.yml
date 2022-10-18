@@ -15,8 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: Low Yield Games
-# Enabling this will add an email link to the sidebar
-# email: lowyieldgames@gmail.com   
+email: lowyieldgames@gmail.com   
 description: The place for Low Yield Games
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: https://lowyieldgames.github.io
@@ -40,15 +39,14 @@ algolia:
 markdown: kramdown
 remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 plugins: # previsously gems
-  # Enabling this adds an RSS link to the sidebar
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
 
 # RSS feed
-# feed:
-  # path: atom.xml
+feed:
+  path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
